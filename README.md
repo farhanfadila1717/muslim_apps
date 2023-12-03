@@ -34,8 +34,6 @@ Offline Application for muslim get pray times and read Al-Qur'an, No Internet re
 [![badge paypal][]][paypal account] [![badge linktree][]][linktree account]
 
 [cover]: https://raw.githubusercontent.com/farhanfadila1717/muslim_apps/main/display/muslim_apps_cover.png
-
-[android link]:
 [repo]: https://github.com/farhanfadila1717/muslim_apps
 [flutter]: https://img.shields.io/badge/Platform-Flutter-02569B?logo=flutter
 [web flutter]: https://flutter.dev
