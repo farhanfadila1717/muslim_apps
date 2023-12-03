@@ -1,0 +1,126 @@
+{
+  "alquran": {
+    "no": 1,
+    "name": "Al-Faatiha",
+    "arab": "الفاتحة",
+    "start": 0,
+    "count": 7,
+    "rukku": 1,
+    "type": "mecca",
+    "description": "Surat <i>Al Faatihah</i> (Pembukaan) yang diturunkan di Mekah dan terdiri dari 7 ayat adalah surat yang pertama-tama diturunkan dengan lengkap  diantara surat-surat yang ada dalam Al Quran dan termasuk golongan surat Makkiyyah. Surat ini disebut <i>Al Faatihah</i> (Pembukaan), karena dengan surat inilah dibuka dan dimulainya Al Quran. Dinamakan <i>Ummul Quran</i> (induk Al Quran) atau <i>Ummul Kitaab</i> (induk Al Kitaab) karena dia merupakan induk dari semua isi Al Quran, dan karena itu diwajibkan membacanya pada tiap-tiap sembahyang.<br> Dinamakan pula <i>As Sab'ul matsaany</i> (tujuh yang berulang-ulang) karena ayatnya tujuh dan dibaca berulang-ulang dalam sholat."
+  },
+  "surah": [
+    {
+      "no": 1,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "latin": "bismi allaahi alrrahmaani alrrahiimi",
+      "translate": {
+        "id": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang. ",
+        "en": "In the name of God, The Most Gracious, The Dispenser of Grace:"
+      },
+      "audio": {
+        "primary": "https://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/1",
+        "secondary": [
+          "https://cdn.islamic.network/quran/audio/128/ar.alafasy/1.mp3",
+          "https://cdn.islamic.network/quran/audio/64/ar.alafasy/1.mp3"
+        ]
+      }
+    },
+    {
+      "no": 2,
+      "arab": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "latin": "alhamdu lillaahi rabbi al'aalamiina",
+      "translate": {
+        "id": "Segala puji bagi Allah, Tuhan semesta alam. ",
+        "en": "All praise is due to God alone, the Sustainer of all the worlds,"
+      },
+      "audio": {
+        "primary": "https://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/2",
+        "secondary": [
+          "https://cdn.islamic.network/quran/audio/128/ar.alafasy/2.mp3",
+          "https://cdn.islamic.network/quran/audio/64/ar.alafasy/2.mp3"
+        ]
+      }
+    },
+    {
+      "no": 3,
+      "arab": "الرَّحْمَٰنِ الرَّحِيمِ",
+      "latin": "alrrahmaani alrrahiimi",
+      "translate": {
+        "id": "Maha Pemurah lagi Maha Penyayang.\n",
+        "en": "The Most Gracious, the Dispenser of Grace,"
+      },
+      "audio": {
+        "primary": "https://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/3",
+        "secondary": [
+          "https://cdn.islamic.network/quran/audio/128/ar.alafasy/3.mp3",
+          "https://cdn.islamic.network/quran/audio/64/ar.alafasy/3.mp3"
+        ]
+      }
+    },
+    {
+      "no": 4,
+      "arab": "مَالِكِ يَوْمِ الدِّينِ",
+      "latin": "maaliki yawmi alddiini",
+      "translate": {
+        "id": "Yang menguasai di Hari Pembalasan ",
+        "en": "Lord of the Day of Judgment!"
+      },
+      "audio": {
+        "primary": "https://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/4",
+        "secondary": [
+          "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4.mp3",
+          "https://cdn.islamic.network/quran/audio/64/ar.alafasy/4.mp3"
+        ]
+      }
+    },
+    {
+      "no": 5,
+      "arab": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "latin": "iyyaaka na'budu wa-iyyaaka nasta'iinu",
+      "translate": {
+        "id": "Hanya Engkaulah yang kami sembah, dan hanya kepada Engkaulah kami meminta pertolongan. ",
+        "en": "Thee alone do we worship; and unto Thee alone do we turn for aid."
+      },
+      "audio": {
+        "primary": "https://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/5",
+        "secondary": [
+          "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5.mp3",
+          "https://cdn.islamic.network/quran/audio/64/ar.alafasy/5.mp3"
+        ]
+      }
+    },
+    {
+      "no": 6,
+      "arab": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "latin": "ihdinaa alshshiraatha almustaqiima",
+      "translate": {
+        "id": "Tunjukilah kami jalan yang lurus,\n",
+        "en": "Guide us the straight way."
+      },
+      "audio": {
+        "primary": "https://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/6",
+        "secondary": [
+          "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6.mp3",
+          "https://cdn.islamic.network/quran/audio/64/ar.alafasy/6.mp3"
+        ]
+      }
+    },
+    {
+      "no": 7,
+      "arab": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "latin": "shiraatha alladziina an'amta 'alayhim ghayri almaghdhuubi 'alayhim walaa aldhdhaalliina",
+      "translate": {
+        "id": "(yaitu) Jalan orang-orang yang telah Engkau beri ni'mat kepada mereka; bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) mereka yang sesat. ",
+        "en": "The way of those upon whom Thou hast bestowed Thy blessings, not of those who have been condemned [by Thee], nor of those who go astray!"
+      },
+      "audio": {
+        "primary": "https://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/7",
+        "secondary": [
+          "https://cdn.islamic.network/quran/audio/128/ar.alafasy/7.mp3",
+          "https://cdn.islamic.network/quran/audio/64/ar.alafasy/7.mp3"
+        ]
+      }
+    }
+  ]
+}

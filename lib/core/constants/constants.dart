@@ -1,0 +1,4 @@
+enum StateStatus {
+  empty,
+  initialized,
+}
