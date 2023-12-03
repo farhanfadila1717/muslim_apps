@@ -2,9 +2,11 @@
 
 # Muslim Apps
 
+[![flutter][]][web flutter]
+
 Offline Application for muslim get pray times and read Al-Qur'an, No Internet required.
 
-## Tech Stack.
+## Flutter Tech Stack.
 
 - `FlexColorScheme` for custom theme
 - `Redux` for state management
