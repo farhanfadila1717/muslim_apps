@@ -18,6 +18,9 @@ final _privateConstructorUsedError = UnsupportedError(
 mixin _$AlquranState {
   List<Alquran> get hightligtAlquran => throw _privateConstructorUsedError;
   List<Alquran> get alquran => throw _privateConstructorUsedError;
+  bool get showLatin => throw _privateConstructorUsedError;
+  bool get showAudio => throw _privateConstructorUsedError;
+  bool get showTranslate => throw _privateConstructorUsedError;
 
   @JsonKey(ignore: true)
   $AlquranStateCopyWith<AlquranState> get copyWith =>
@@ -30,7 +33,12 @@ abstract class $AlquranStateCopyWith<$Res> {
           AlquranState value, $Res Function(AlquranState) then) =
       _$AlquranStateCopyWithImpl<$Res, AlquranState>;
   @useResult
-  $Res call({List<Alquran> hightligtAlquran, List<Alquran> alquran});
+  $Res call(
+      {List<Alquran> hightligtAlquran,
+      List<Alquran> alquran,
+      bool showLatin,
+      bool showAudio,
+      bool showTranslate});
 }
 
 /// @nodoc
@@ -48,6 +56,9 @@ class _$AlquranStateCopyWithImpl<$Res, $Val extends AlquranState>
   $Res call({
     Object? hightligtAlquran = null,
     Object? alquran = null,
+    Object? showLatin = null,
+    Object? showAudio = null,
+    Object? showTranslate = null,
   }) {
     return _then(_value.copyWith(
       hightligtAlquran: null == hightligtAlquran
@@ -58,6 +69,18 @@ class _$AlquranStateCopyWithImpl<$Res, $Val extends AlquranState>
           ? _value.alquran
           : alquran // ignore: cast_nullable_to_non_nullable
               as List<Alquran>,
+      showLatin: null == showLatin
+          ? _value.showLatin
+          : showLatin // ignore: cast_nullable_to_non_nullable
+              as bool,
+      showAudio: null == showAudio
+          ? _value.showAudio
+          : showAudio // ignore: cast_nullable_to_non_nullable
+              as bool,
+      showTranslate: null == showTranslate
+          ? _value.showTranslate
+          : showTranslate // ignore: cast_nullable_to_non_nullable
+              as bool,
     ) as $Val);
   }
 }
@@ -70,7 +93,12 @@ abstract class _$$AlquranStateImplCopyWith<$Res>
       __$$AlquranStateImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({List<Alquran> hightligtAlquran, List<Alquran> alquran});
+  $Res call(
+      {List<Alquran> hightligtAlquran,
+      List<Alquran> alquran,
+      bool showLatin,
+      bool showAudio,
+      bool showTranslate});
 }
 
 /// @nodoc
@@ -86,6 +114,9 @@ class __$$AlquranStateImplCopyWithImpl<$Res>
   $Res call({
     Object? hightligtAlquran = null,
     Object? alquran = null,
+    Object? showLatin = null,
+    Object? showAudio = null,
+    Object? showTranslate = null,
   }) {
     return _then(_$AlquranStateImpl(
       hightligtAlquran: null == hightligtAlquran
@@ -96,6 +127,18 @@ class __$$AlquranStateImplCopyWithImpl<$Res>
           ? _value._alquran
           : alquran // ignore: cast_nullable_to_non_nullable
               as List<Alquran>,
+      showLatin: null == showLatin
+          ? _value.showLatin
+          : showLatin // ignore: cast_nullable_to_non_nullable
+              as bool,
+      showAudio: null == showAudio
+          ? _value.showAudio
+          : showAudio // ignore: cast_nullable_to_non_nullable
+              as bool,
+      showTranslate: null == showTranslate
+          ? _value.showTranslate
+          : showTranslate // ignore: cast_nullable_to_non_nullable
+              as bool,
     ));
   }
 }
@@ -105,7 +148,10 @@ class __$$AlquranStateImplCopyWithImpl<$Res>
 class _$AlquranStateImpl extends _AlquranState {
   const _$AlquranStateImpl(
       {final List<Alquran> hightligtAlquran = const [],
-      final List<Alquran> alquran = const []})
+      final List<Alquran> alquran = const [],
+      this.showLatin = true,
+      this.showAudio = true,
+      this.showTranslate = false})
       : _hightligtAlquran = hightligtAlquran,
         _alquran = alquran,
         super._();
@@ -130,8 +176,18 @@ class _$AlquranStateImpl extends _AlquranState {
   }
 
   @override
+  @JsonKey()
+  final bool showLatin;
+  @override
+  @JsonKey()
+  final bool showAudio;
+  @override
+  @JsonKey()
+  final bool showTranslate;
+
+  @override
   String toString() {
-    return 'AlquranState(hightligtAlquran: $hightligtAlquran, alquran: $alquran)';
+    return 'AlquranState(hightligtAlquran: $hightligtAlquran, alquran: $alquran, showLatin: $showLatin, showAudio: $showAudio, showTranslate: $showTranslate)';
   }
 
   @override
@@ -141,14 +197,23 @@ class _$AlquranStateImpl extends _AlquranState {
             other is _$AlquranStateImpl &&
             const DeepCollectionEquality()
                 .equals(other._hightligtAlquran, _hightligtAlquran) &&
-            const DeepCollectionEquality().equals(other._alquran, _alquran));
+            const DeepCollectionEquality().equals(other._alquran, _alquran) &&
+            (identical(other.showLatin, showLatin) ||
+                other.showLatin == showLatin) &&
+            (identical(other.showAudio, showAudio) ||
+                other.showAudio == showAudio) &&
+            (identical(other.showTranslate, showTranslate) ||
+                other.showTranslate == showTranslate));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
       const DeepCollectionEquality().hash(_hightligtAlquran),
-      const DeepCollectionEquality().hash(_alquran));
+      const DeepCollectionEquality().hash(_alquran),
+      showLatin,
+      showAudio,
+      showTranslate);
 
   @JsonKey(ignore: true)
   @override
@@ -160,13 +225,22 @@ class _$AlquranStateImpl extends _AlquranState {
 abstract class _AlquranState extends AlquranState {
   const factory _AlquranState(
       {final List<Alquran> hightligtAlquran,
-      final List<Alquran> alquran}) = _$AlquranStateImpl;
+      final List<Alquran> alquran,
+      final bool showLatin,
+      final bool showAudio,
+      final bool showTranslate}) = _$AlquranStateImpl;
   const _AlquranState._() : super._();
 
   @override
   List<Alquran> get hightligtAlquran;
   @override
   List<Alquran> get alquran;
+  @override
+  bool get showLatin;
+  @override
+  bool get showAudio;
+  @override
+  bool get showTranslate;
   @override
   @JsonKey(ignore: true)
   _$$AlquranStateImplCopyWith<_$AlquranStateImpl> get copyWith =>

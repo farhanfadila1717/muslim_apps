@@ -23,3 +23,25 @@ class SetHightligtAlquranAction {
     required this.hightlightAlquran,
   });
 }
+
+class GetCurrentToggleData {
+  const GetCurrentToggleData();
+}
+
+class SetTranslateToggleAction {
+  final bool value;
+
+  const SetTranslateToggleAction(this.value);
+}
+
+class SetLatinToggleAction {
+  final bool value;
+
+  const SetLatinToggleAction(this.value);
+}
+
+class SetAudioToggleAction {
+  final bool value;
+
+  const SetAudioToggleAction(this.value);
+}

@@ -10,5 +10,8 @@ class AlquranState with _$AlquranState {
   const factory AlquranState({
     @Default([]) List<Alquran> hightligtAlquran,
     @Default([]) List<Alquran> alquran,
+    @Default(true) bool showLatin,
+    @Default(true) bool showAudio,
+    @Default(false) bool showTranslate,
   }) = _AlquranState;
 }

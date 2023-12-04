@@ -61,7 +61,14 @@ class CityMiddleware extends MiddlewareClass<AppState> {
         _kKey,
       );
 
-      if (savedCityInString == null) return;
+      if (savedCityInString == null) {
+        store.dispatch(
+          const SetAdzanStateActon(
+            StateStatus.initialized,
+          ),
+        );
+        return;
+      }
 
       final city = City.fromJson(
         json.decode(savedCityInString),

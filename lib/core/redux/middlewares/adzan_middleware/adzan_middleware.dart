@@ -59,7 +59,7 @@ class AdzanMiddleware extends MiddlewareClass<AppState> {
         ),
         Adzan(
           name: 'Ashar',
-          time: prayerTimes.dhuhr,
+          time: prayerTimes.asr,
         ),
         Adzan(
           name: 'Maghrib',

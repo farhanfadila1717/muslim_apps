@@ -11,6 +11,4 @@ class CityState with _$CityState {
     City? selectedCity,
     @Default([]) List<City> citys,
   }) = _CityState;
-
-  bool get hasSelectedCity => selectedCity != null;
 }

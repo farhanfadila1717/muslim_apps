@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:alquran_new/common.dart';
 import 'package:alquran_new/core/models/city/city.dart';
 import 'package:alquran_new/core/navigation/action/navigation_actions.dart';
@@ -69,7 +71,8 @@ class _CityPageState extends State<CityPage> {
               slivers: [
                 SliverAppBar(
                   floating: true,
-                  expandedHeight: 150 + context.viewTopArea,
+                  expandedHeight:
+                      Platform.isAndroid ? 200 : 160 + context.viewTopArea,
                   systemOverlayStyle: SystemUiOverlayStyle.light,
                   iconTheme: const IconThemeData(color: Colors.white),
                   flexibleSpace: FlexibleSpaceBar(

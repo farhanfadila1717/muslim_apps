@@ -9,6 +9,7 @@ environment:
 dependencies:
   adhan: ^2.0.0+1
   after_layout: ^1.2.0
+  audioplayers: ^5.2.1
   card_loading: ^0.3.0
   carousel_slider: ^4.2.1
   cupertino_icons: ^1.0.2
@@ -47,6 +48,16 @@ flutter:
     - assets/json/detail_alquran/
 
   fonts:
+    - family: Noto
+      fonts:
+        - asset: assets/fonts/NotoNaskhArabic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/NotoNaskhArabic-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/NotoNaskhArabic-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/NotoNaskhArabic-Bold.ttf
+          weight: 700
     - family: Umani
       fonts:
         - asset: assets/fonts/UthmanTN1_Ver07.otf

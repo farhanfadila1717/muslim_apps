@@ -5,10 +5,6 @@ class _AppBar extends StatelessActionMapper with HomePageActionMapper {
 
   @override
   Widget build(BuildContext context) {
-    final cardLoadingTheme = CardLoadingTheme(
-      colorOne: context.colorScheme.secondaryContainer,
-      colorTwo: context.colorScheme.tertiaryContainer,
-    );
     return SliverAppBar(
       expandedHeight: 200 + context.viewTopArea,
       floating: true,
@@ -100,44 +96,6 @@ class _AppBar extends StatelessActionMapper with HomePageActionMapper {
                       final isFocusCloser =
                           focusDuration != null && focusDuration.inMinutes < 10;
 
-                      if (!adzanState.hasInitialized) {
-                        return Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Row(
-                              children: [
-                                CardLoading(
-                                  height: 55,
-                                  width: 55,
-                                  cardLoadingTheme: cardLoadingTheme,
-                                  margin: const EdgeInsets.only(right: 10),
-                                  borderRadius: BorderRadius.circular(16),
-                                ),
-                                Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    CardLoading(
-                                      height: 20,
-                                      width: 150,
-                                      cardLoadingTheme: cardLoadingTheme,
-                                      margin: const EdgeInsets.only(bottom: 9),
-                                      borderRadius: BorderRadius.circular(10),
-                                    ),
-                                    CardLoading(
-                                      height: 20,
-                                      width: 100,
-                                      cardLoadingTheme: cardLoadingTheme,
-                                      borderRadius: BorderRadius.circular(10),
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ],
-                        );
-                      }
-
                       if (selectedCity == null) {
                         return Align(
                           alignment: Alignment.centerLeft,
@@ -186,6 +144,7 @@ class _AppBar extends StatelessActionMapper with HomePageActionMapper {
 
                       return Column(
                         mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
                             children: [
