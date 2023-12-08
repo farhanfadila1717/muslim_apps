@@ -37,8 +37,8 @@ class AdzanMiddleware extends MiddlewareClass<AppState> {
 
       final params = CalculationParameters(
         fajrAngle: 20.0,
-        maghribAngle: 4.5,
-        ishaAngle: 0,
+        ishaAngle: 18.0,
+        madhab: Madhab.shafi,
       );
 
       final prayerTimes = PrayerTimes.today(
